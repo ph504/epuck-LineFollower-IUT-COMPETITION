@@ -1,5 +1,5 @@
-# THE EPUCK ROBOT LINE FOLLOWING FOR IUT COMPETITION FALL 2021 (DECEMBER).
-## champion robot
+# The E-PUCK robot line following for IUT competition (december 2021).
+## champion robot 🦾🤖🏆🥇
 
-further explanations and the approach of implementing this robot will be covered later, so stay tuned for updates.
+further explanations and the approach of implementing this robot will be included in this markdown later, so stay tuned for updates.
 also lemme know your thoughts.
