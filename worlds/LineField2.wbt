@@ -1,0 +1,42 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  info [
+    "Copyright (C) 2006 Laboratory of Intelligent Systems (LIS), EPFL"
+    "Thanks to jean-christophe.zufferey@epfl.ch"
+  ]
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position -0.08065433328347066 4.557088136288277 -0.00922314022703402
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+RectangleArena {
+  floorSize 1.5 1.5
+  floorTileSize 0.9 0.9
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "Map5.png"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+    }
+    roughness 0.4
+    metalness 0
+  }
+  wallHeight 0.05
+}
+DEF EPUCK E-puck {
+  translation -0.325294 0 -0.277999
+  rotation 0 1 0 -1.57
+  controller "line_following_controller"
+  groundSensorsSlot [
+    E-puckGroundSensors4IUT {
+    }
+  ]
+}
